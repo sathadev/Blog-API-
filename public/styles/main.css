@@ -1,0 +1,131 @@
+
+main {
+    min-height: 80vh;
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+header, footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1, footer > p {
+    color: blanchedalmond;
+    margin: 0;
+}
+
+.post-form {
+    background-color: #A0DEFF;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 24px;
+    border-color: #A0DEFF;
+    width: 60vw;
+    height: fit-content;
+    padding: 2vh;
+}
+
+.post-shared {
+    background-color: #CAF4FF;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 24px;
+    border-color: #CAF4FF;
+    width: 60vw;
+    height: fit-content;
+    padding: 2vh;
+}
+
+.message-box {
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 24px;
+    border-color: aliceblue;
+    padding: 2vh;
+}
+
+.timestamp-box {
+    padding: 2vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+
+.post-shared > .personal-info {
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+label {
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.btn-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1vh;
+}
+
+button {
+    height: 5vh;
+    width: 15vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    color: black;
+    font-family: 'Avenir LT Pro', sans-serif;
+    font-size: 1.8vh;
+    font-weight: bolder;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 24px;
+    border-width: 0.2vh;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #5AB2FF;
+    border-color: #5AB2FF;
+}
+
+textarea {
+    resize: none;
+}
+
+input {
+    height: 1vh;
+}
+
+input, textarea {
+    font-family: 'Avenir LT Pro', sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 24px;
+    border-color: white;
+    padding: 2vh;
+}
